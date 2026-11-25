@@ -1,0 +1,37 @@
+{
+  "name": "google-calendar-bulk-cleaner",
+  "version": "1.0.0",
+  "description": "Bulk delete Google Calendar events by searching their title and description (not case sensitive). Browser console script and Google Apps Script.",
+  "private": true,
+  "license": "MIT",
+  "author": "Frankline-Sable",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frankline-Sable/google-calendar-bulk-cleaner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Frankline-Sable/google-calendar-bulk-cleaner/issues"
+  },
+  "homepage": "https://github.com/Frankline-Sable/google-calendar-bulk-cleaner#readme",
+  "keywords": [
+    "google-calendar",
+    "bulk-delete",
+    "apps-script",
+    "browser-console",
+    "calendar-cleanup"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "node --test",
+    "check": "npm run lint && npm test"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
+    "globals": "^15.0.0",
+    "jsdom": "^25.0.0"
+  }
+}
